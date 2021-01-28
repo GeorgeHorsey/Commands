@@ -8,7 +8,7 @@ Track all files in folder. The astrick means include all.
 
 Commit any changes in folder. 
 
-``git commit-am [notes on commit]``
+``git commit -am [notes on commit]``
 
 Push all changes up to repository. 
 
