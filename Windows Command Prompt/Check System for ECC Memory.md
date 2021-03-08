@@ -1,8 +1,8 @@
-Run the following command in command promot to check if the system you are on has ECC memory of not. 
+Run the following command in command promot to check if the system you are on has ECC memory. 
 
 ``wmic MEMORYCHIP get DataWidth,TotalWidth``
 
-Example output 
+Example output:
 
 //ECC Memory
 
