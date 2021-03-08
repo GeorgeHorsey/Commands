@@ -6,9 +6,8 @@ Example output
 
 //ECC Memory
 
-DataWidth  TotalWidth
-64         72
+DataWidth 64 TotalWidth 72
 
 //Non-ECC Memory
-DataWidth  TotalWidth
-64         64
+
+DataWidth 64 TotalWidth 64
