@@ -1,0 +1,30 @@
+Install Git to Computer
+
+$ git init Name_Of_Repo.git
+
+You then can place any file into the directory. 
+When you are ready to make a commit use the following commands... 
+
+$ git add * 
+
+This will add all files and make sure they are commited. 
+
+$ git commit -am "add a message about the changes here"
+
+Use ($ git log) to view all the commits in the repo
+
+To view an older version of the repo use the following commands. 
+
+$ git log 
+
+This will print out a list of commits with their message and ID. 
+Locate the version you would like to view and use this command... 
+
+$ git checkout **git id here**
+
+When you are done viewing the old file you can get back to the 
+newest file by using the following command... 
+
+$ git checkout master 
+
+or by using the name of your top level branch. 
