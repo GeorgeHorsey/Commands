@@ -28,3 +28,7 @@ newest file by using the following command...
 $ git checkout master 
 
 or by using the name of your top level branch. 
+
+Set name for git
+
+$ git config --global user.name GeorgeHorsey
