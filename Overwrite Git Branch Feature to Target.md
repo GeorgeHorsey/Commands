@@ -1,4 +1,4 @@
-# Overwrite target branch with contents of source branch
+# Overwrite target branch with contents of feature branch
 
 ``git checkout "feature_branch_name"``
 
