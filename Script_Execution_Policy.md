@@ -2,19 +2,29 @@ Default Windows installations block the running of scripts. These commands are h
 
 To start run the following command to see the current ExecutionPolicy is set. 
 
-``Get-ExecutionPolicy``
+```powershell
+Get-ExecutionPolicy
+```
 
 This command will return the current policy set. Refer below for the defenition of each. 
 
 If it is set as Restricted run the following command to allow scripts to be run. 
 
-``Set-ExecutionPolicy RemoteSigned``
+```powershell
+Set-ExecutionPolicy RemoteSigned
+```
 
 After running your script return it do Restricted. 
 
-``Set-ExecutionPolicy Restricted``
+```powershell
+Set-ExecutionPolicy Restricted
+```
 
-Verify with Get-ExecutionPolicy. 
+Verify with 
+
+```powershell
+Get-ExecutionPolicy
+```
 
 
 Purpose: To control the execution of scripts to prevent accidental, potentially harmful, code from running.

@@ -1,4 +1,4 @@
-Preffered method for finding the Dell Service Tag. Run Powershell. 
+Preferred method for finding the Dell Service Tag. Run Powershell. 
 
 ```powershell
 Get-CimInstance -ClassName Win32_BIOS | Select-Object SerialNumber

@@ -2,7 +2,9 @@ Press SHIFT+F10 keys to open Command Prompt when the Windows Boot Media Loads.
 
 Run this command 
 
+```shell
 OOBE\BYPASSNRO
+```
 
 After the command is run the computer will restart. 
 
