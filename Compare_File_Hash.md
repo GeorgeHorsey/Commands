@@ -10,7 +10,6 @@ Could also put MD5 instead of SHA256.
 
 This will output the hash in whatever algorithm you selected. 
 
-
 Now open PowerShell 
 
 Run this command to compare a file to the known hash. 
